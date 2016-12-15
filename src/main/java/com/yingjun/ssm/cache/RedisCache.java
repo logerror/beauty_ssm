@@ -110,6 +110,7 @@ public class RedisCache {
 	public void deleteCache(String key) {
 		redisTemplate.delete(key);
 	}
+	
 
 	/**
 	 * 模糊删除key
